@@ -42,6 +42,15 @@ public class StudentController
 				break;
 			case 3:
 				System.out.println("3");
+				Student student = studentService.findStudent(students);
+				if (student != null) 
+				{
+					sv.viewOne(student);
+				}
+				else 
+				{
+					sv.viewMessage("찾는 학생번호가 없어요");
+				}
 				break;
 			case 4:
 				System.out.println("4");
