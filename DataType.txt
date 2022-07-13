@@ -1,0 +1,11 @@
+Primitive
+
+Reference
+
+메모리 구분
+Method: 클래스변수
+Stack : 지역변수
+Heap : 인스턴스변수
+
+기타 등등
+참조변수 : 변수값이 객체의 주소값을 담고 있는변수
