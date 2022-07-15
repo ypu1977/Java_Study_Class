@@ -12,10 +12,10 @@ public class StudentView
 	//학생 한명의 정보를 받아서 모든 정보를 출력
 	public void viewOne(Student student)
 	{
-		System.out.println(student.name );
-		System.out.println(student.num );
-		System.out.println(student.total );
-		System.out.println(student.avg );
+		System.out.println(student.getName());
+		System.out.println(student.getNum() );
+		System.out.println(student.getTotal());
+		System.out.println(student.getAvg());
 	}
 	
 	//viewAll
@@ -24,10 +24,10 @@ public class StudentView
 	{
 		for(int i=0; i<students.length; i++) 
 		{
-			System.out.println(students[i].name );
-			System.out.println(students[i].num );
-			System.out.println(students[i].total );
-			System.out.println(students[i].avg );
+			System.out.println(students[i].getName() );
+			System.out.println(students[i].getNum() );
+			System.out.println(students[i].getTotal() );
+			System.out.println(students[i].getAvg() );
 		}
 		System.out.println("ViewAll 메서드 실행");
 	}
